@@ -1,0 +1,510 @@
+/*Definir variables*/
+/*Importar estilos*/
+nav {
+  background-color: #ffe999;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 5px;
+}
+nav a {
+  text-decoration: none;
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+
+/*Mixins*/
+/*Herencia*/
+.box-error,
+.box-success,
+.box {
+  border-style: solid;
+  border-width: 2px;
+  margin: 1em;
+}
+
+.box-success {
+  border-color: green;
+}
+
+.box-error {
+  border-color: red;
+}
+
+/*Operadores*/
+.container {
+  width: 100%;
+}
+
+article {
+  float: left;
+  width: 62.5%;
+}
+
+aside {
+  float: right;
+  width: 31.25%;
+}
+#mainImagen {
+  background-color: #ffe999;
+  margin-top: -5px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  margin-right: -5px;
+}
+#populares {
+  color: #483e57;
+  text-align: center;
+}
+#modalInicio {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+.modal-content {
+  background-color: #fe7541;
+}
+#modalRegistrar {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+#btnModalInicio {
+  background-color: #483e57;
+  color: white;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+#btnModalRegistrar {
+  background-color: #483e57;
+  color: white;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+#close {
+  background-color: #483e57;
+  color: white;
+  font-family: "Patua One", cursive;
+  border-width: 0px;
+}
+
+h3 {
+  font-family: "Patua One", cursive;
+  color: white;
+}
+
+.card {
+  background-color: #483e57;
+  border-radius: 5px;
+  align-items: center;
+}
+#caliImg {
+  height: 190px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#bogotaImg {
+  height: 190px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#cartagenaImg {
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#medellinImg {
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#buscarCardCali {
+  background-color: white;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+#buscarCardMedellin {
+  background-color: white;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+#nombreModal {
+  font-family: "Pattaya", sans-serif;
+  font-size: 30px;
+}
+#buscarCardCartagena {
+  background-color: white;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+main {
+  background-color: #fff8e5;
+}
+#formMain {
+  background-color: #fe7541;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+#origen {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+}
+#serConductor {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+}
+#btnConductor {
+  background-color: #483e57;
+  color: white;
+  font-family: "Patua One", cursive;
+  border-radius: 30px;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 15px;
+  border-width: 0px;
+  margin-left: 50px;
+}
+#manubrioImg {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+#navConductor {
+  margin-top: 60px;
+  font-size: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 30px;
+  margin-bottom: 70px;
+}
+#destino {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+}
+
+#fecha {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+}
+#pasajeros {
+  color: #483e57;
+  font-family: "Patua One", cursive;
+}
+#buscarForm {
+  font-family: "Patua One", cursive;
+  background-color: #483e57;
+  font-size: 40px;
+  border-radius: 40px;
+}
+#btn_iniciar {
+  position: absolute;
+  left: 1350px;
+  top: 10px;
+  background-color: #ffe999;
+  border-color: #fe7541;
+  border-radius: 20px;
+  color: #483e57;
+  padding: 10px;
+  font-family: "Patua One", cursive;
+  font-size: 17px;
+}
+/*botones*/
+#btn_registrarse {
+  position: absolute;
+  left: 1200px;
+  top: 10px;
+  background-color: #fe7541;
+  border: none;
+  border-radius: 12px;
+  color: #483e57;
+  padding: 10px;
+  text-align: center;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+}
+
+/*botones*/
+#Registrarse {
+  background-color: #ffe999;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  border-width: 0px;
+}
+
+#InicioSesion {
+  background-color: #ffe999;
+  border-radius: 30px;
+  border-color: #fe7541;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  border-width: 6px;
+}
+
+/*Maps*/
+p {
+  font-weight: 600;
+}
+
+#lugares {
+  border-radius: 12px;
+  background-color: lightgray;
+  width: 90%;
+  margin: 20px;
+}
+
+#fechas {
+  border-radius: 12px;
+  background-color: lightgray;
+  width: 90%;
+  margin: 20px;
+}
+
+#imagenCentro {
+  width: 700px;
+  height: 600px;
+  padding: 3px;
+  border-radius: 70px;
+  float: right;
+  margin: 20px;
+  margin-right: 60px;
+}
+
+#forms {
+  background-color: white;
+  border-radius: 12px;
+  margin: 20px;
+  margin-left: 60px;
+}
+#buscar {
+  background-color: rgb(204, 255, 204);
+  border: none;
+  border-radius: 12px;
+  color: black;
+  font-weight: bold;
+  padding: 20px 140px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 2px;
+  position: relative;
+}
+
+#btnBuscar {
+  align-content: center;
+}
+#Conductor {
+  font-weight: bold;
+}
+#btonIr {
+  background-color: green;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+}
+#imagenManubrio {
+  width: 100px;
+  height: 100px;
+  padding: 3px;
+  margin: 5px;
+}
+/*Navbar*/
+#logotexto {
+  color: #483e57;
+}
+
+/*Container crear viaje*/
+#container_crear_viaje {
+  background-color: #483e57;
+  padding: 10px;
+  color: white;
+  margin: 30px;
+  width: 90%;
+  border-radius: 25px;
+}
+
+#crear_viaje_boton {
+  background-color: white;
+  color: #483e57;
+  margin: 10px;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+}
+
+#salir_viaje_boton {
+  background-color: white;
+  color: #483e57;
+  margin: 10px;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+}
+/*Cartas narajas*/
+.card {
+  background-color: #fe7541;
+  margin-top: 25px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+/*Boton primario*/
+.btn-primary {
+  background-color: #483e57;
+  border: #483e57;
+}
+.btn-primary:hover {
+  color: #fffbee;
+  background-color: #483e57;
+  border-color: #ffe999;
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary:focus {
+  color: #fffbee;
+  background-color: #483e57;
+  border-color: #ffe999;
+  outline: none;
+  box-shadow: none;
+}
+
+.container.row {
+  padding: 25px;
+}
+
+.container.row .col-sm-3 {
+  align-self: center;
+}
+
+body {
+  background-color: #fff8e5;
+}
+
+header {
+  background-color: #ffe999;
+  height: 100px;
+}
+
+#logo {
+  width: 15%;
+  height: 80%;
+}
+
+#carroHeader {
+  position: absolute;
+  left: 30px;
+  top: 4px;
+}
+
+#letrasHeader {
+  position: absolute;
+  left: 150px;
+  top: 20px;
+}
+
+#cardRegistrar {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registro-conductor {
+  font-size: 22px;
+}
+
+.registro-vehiculo {
+  font-size: 22px;
+}
+
+footer {
+  background-color: #ffe999;
+  height: 80px;
+  text-align: center;
+}
+#pFooter {
+  margin: 0;
+}
+
+#perfiles {
+  background-color: #fe7541;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  border-radius: 50px;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+#perfilImagen {
+  background-color: #ffe999;
+  padding-left: 27px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 50px;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+#imagenPerfil {
+  height: 10rem;
+  width: 20rem;
+}
+
+#mailPerfil {
+  padding-top: 5%;
+}
+
+#imagenVehiculo {
+  height: 10rem;
+  width: 20rem;
+}
+
+#botonModificarVehiculo {
+  padding-left: 700px;
+}
+
+#colCentral {
+  margin-top: 85px;
+  margin-bottom: 15px;
+}

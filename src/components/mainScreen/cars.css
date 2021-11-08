@@ -1,0 +1,23 @@
+.card {
+  width: 20rem;
+}
+#caliImg {
+  height: 210px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#bogotaImg {
+  height: 210px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#cartagenaImg {
+  height: 210px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}
+#medellinImg {
+  height: 210px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+}

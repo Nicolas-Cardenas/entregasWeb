@@ -1,0 +1,22 @@
+/*botones*/
+#Registrarse {
+  background-color: #ffe999;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  border-width: 0px;
+  margin-top: 20px;
+}
+
+#InicioSesion {
+  background-color: #ffe999;
+  border-radius: 30px;
+  border-color: #fe7541;
+  color: #483e57;
+  font-family: "Patua One", cursive;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  border-width: 6px;
+}
